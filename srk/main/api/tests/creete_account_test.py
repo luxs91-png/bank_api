@@ -1,0 +1,20 @@
+from sqlalchemy.orm import Session
+
+from srk.main.api.models.create_user_request import CreateUserRequest
+from srk.main.api.clases.api_manager import ApiManager
+from srk.main.api.db.crud.account_crud import AccountCrudDb as Account
+
+import pytest
+
+
+@pytest.mark.api
+class TestCreateAccount:
+
+    def test_create_account(self,db_session:Session, api_manager: ApiManager, create_user_request: CreateUserRequest):
+        response = api_manager.user_steps.create_account(create_user_request)
+
+        assert response.balance == 0
+
+        account_from_db = Account.get_account_by_id(db_session, response.id)
+        assert account_from_db.id == response.id, 'Аккаунт не создан, ID аккаунта нет в в БД'
+        assert account_from_db.balance is not None, 'Поле баланса для созданного аккаунта отсутсвует в БД'
