@@ -6,7 +6,7 @@ class TransactionTable(Base):
     id = Column(Integer, primary_key=True)
     to_account_id = Column(Integer, ForeignKey('account.id'))
     from_account_id = Column(Integer, ForeignKey('account.id'))
-    credit_Id = Column(Integer, ForeignKey('credit.id'))
+    credit_id = Column(Integer, ForeignKey('credit.id'))
     amount = Column(Float)
     transaction_type = Column(String)
     created_at = Column(DateTime, nullable=False)
