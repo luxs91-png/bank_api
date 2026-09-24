@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-
 from srk.main.api.db.models.transaction_table import TransactionTable
+
 class TransactionCrudDb:
     @staticmethod
     def get_transaction_by_id(db: Session, transaction_id: int) -> TransactionTable:
