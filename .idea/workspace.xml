@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59c1b572-eae4-41bc-939f-fd14abf55acd" name="Changes" comment="negativ" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Luxry_S" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luxs91-png&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luxs91-png/bank_api&quot;,
+    &quot;accountId&quot;: &quot;93c7cf9e-85bf-467f-b155-21d65eb8dc9d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EoBfvr3crMmF3zSowfbhE7Eoy0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for main.api.tests.credit_repay_test.TestCreditRepay.test_credit_repay.executor": "Run",
+    "Python tests.Python tests for main.api.tests.credit_repay_test.TestCreditRepay.test_credit_repay_partial_amount.executor": "Run",
+    "Python tests.Python tests for main.api.tests.credit_repay_test.test_credit_repay.executor": "Run",
+    "Python tests.Python tests for main.api.tests.credit_request_test.TestCreditRequest.test_credit_request.executor": "Run",
+    "Python tests.Python tests for main.api.tests.credit_request_test.TestCreditRequest.test_credit_request_invalid_amount.executor": "Run",
+    "Python tests.Python tests for main.api.tests.creete_account_test.TestCreateAccount.test_create_account.executor": "Run",
+    "Python tests.Python tests for main.api.tests.creete_user_test.TestCreeteUser.executor": "Run",
+    "Python tests.Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_invalid.executor": "Run",
+    "Python tests.Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_valid.executor": "Run",
+    "Python tests.Python tests for main.api.tests.deposit_account_test.TestDepositAccount.test_deposit_account.executor": "Run",
+    "Python tests.Python tests for main.api.tests.deposit_account_test.TestDepositAccount.test_deposit_invalid_amount.executor": "Run",
+    "Python tests.Python tests for main.api.tests.login_user_test.TestUserLogin.test_login_admin.executor": "Run",
+    "Python tests.Python tests for main.api.tests.login_user_test.TestUserLogin.test_login_user.executor": "Run",
+    "Python tests.Python tests for main.api.tests.trasnfer_account_test.TestTransferAccount.test_transfer_account.executor": "Run",
+    "Python tests.Python tests for main.api.tests.trasnfer_account_test.TestTransferAccount.test_transfer_invalid_amount.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.creete_account_test.TestCreateAccount.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.creete_account_test.TestCreateAccount.test_create_account.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.creete_user_test.TestCreeteUser.test_create_user.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.creete_user_test.TestCreeteUser.test_create_user_invalid.executor": "Debug",
+    "Python tests.Python tests for srk.main.api.tests.creete_user_test.TestCreeteUser.test_create_user_valid.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.login_user_test.TestUserLogin.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.login_user_test.TestUserLogin.test_login_admin.executor": "Run",
+    "Python tests.Python tests for srk.main.api.tests.login_user_test.TestUserLogin.test_login_user.executor": "Run",
+    "Python tests.Python tests in creete_user_test.py.executor": "Run",
+    "Python.admin_steps.executor": "Run",
+    "Python.base_model.executor": "Run",
+    "Python.config.executor": "Debug",
+    "Python.create_user_requester.executor": "Debug",
+    "Python.credit_crud.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sasha/Documents/PythonProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/srk/main/api/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/srk" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for main.api.tests.creete_account_test.TestCreateAccount.test_create_account">
+    <configuration name="Python tests for main.api.tests.credit_repay_test.TestCreditRepay.test_credit_repay" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.api.tests.credit_repay_test.TestCreditRepay.test_credit_repay&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for main.api.tests.credit_repay_test.test_credit_repay" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.api.tests.credit_repay_test.test_credit_repay&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for main.api.tests.creete_account_test.TestCreateAccount.test_create_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.api.tests.creete_account_test.TestCreateAccount.test_create_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_invalid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.api.tests.creete_user_test.TestCreeteUser.test_create_user_invalid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/srk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.api.tests.creete_user_test.TestCreeteUser.test_create_user_valid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_valid" />
+        <item itemvalue="Python tests.Python tests for main.api.tests.creete_user_test.TestCreeteUser.test_create_user_invalid" />
+        <item itemvalue="Python tests.Python tests for main.api.tests.creete_account_test.TestCreateAccount.test_create_account" />
+        <item itemvalue="Python tests.Python tests for main.api.tests.credit_repay_test.TestCreditRepay.test_credit_repay" />
+        <item itemvalue="Python tests.Python tests for main.api.tests.credit_repay_test.test_credit_repay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c1b572-eae4-41bc-939f-fd14abf55acd" name="Changes" comment="" />
+      <created>1780835149841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780835149841</updated>
+    </task>
+    <task id="LOCAL-00001" summary="credit_table">
+      <option name="closed" value="true" />
+      <created>1789643860199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789643860200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="trasaction_table">
+      <option name="closed" value="true" />
+      <created>1789713219332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789713219332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="trasaction">
+      <option name="closed" value="true" />
+      <created>1789734289886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789734289886</updated>
+    </task>
+    <task id="LOCAL-00004" summary="trasaction">
+      <option name="closed" value="true" />
+      <created>1789736620566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789736620569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="credit">
+      <option name="closed" value="true" />
+      <created>1790242733319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790242733319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="credit_response_test">
+      <option name="closed" value="true" />
+      <created>1790514746604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790514746604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="credit_repay_test.py">
+      <option name="closed" value="true" />
+      <created>1790519372568</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790519372568</updated>
+    </task>
+    <task id="LOCAL-00008" summary="generatur">
+      <option name="closed" value="true" />
+      <created>1790594177077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790594177077</updated>
+    </task>
+    <task id="LOCAL-00009" summary="negativ">
+      <option name="closed" value="true" />
+      <created>1790600311418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790600311418</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="credit_table" />
+    <MESSAGE value="trasaction_table" />
+    <MESSAGE value="trasaction" />
+    <MESSAGE value="credit" />
+    <MESSAGE value="credit_response_test" />
+    <MESSAGE value="credit_repay_test.py" />
+    <MESSAGE value="generatur" />
+    <MESSAGE value="negativ" />
+    <option name="LAST_COMMIT_MESSAGE" value="negativ" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+Index: srk/main/api/db/crud/credit_crud.py
+===================================================================
+diff --git a/srk/main/api/db/crud/credit_crud.py b/srk/main/api/db/crud/credit_crud.py
+--- a/srk/main/api/db/crud/credit_crud.py	(revision 866b9f58b7fa1ccc5d21bc2d7890fcf6496df725)
++++ b/srk/main/api/db/crud/credit_crud.py	(date 1789657288807)
+@@ -1,0 +1,6 @@
++from srk.main.api.db.models.credit_table import Credit
++from sqlalchemy.orm import Session
++
++class CreditCrudDb:
++    @staticmethod
++    def get_credit_by_id(db: Session,):
+\ No newline at end of file
