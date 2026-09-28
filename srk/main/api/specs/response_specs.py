@@ -22,4 +22,9 @@ class ResponseSpecs:
             assert response.status_code == HTTPStatus.BAD_REQUEST, response.text
         return confirm
 
+    @staticmethod
+    def requests_unprocessable():
+        def confirm(response: Response):
+            assert response.status_code == HTTPStatus.UNPROCESSABLE_ENTITY, (response.text)
+        return confirm
     

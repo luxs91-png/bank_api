@@ -10,6 +10,7 @@ from srk.main.api.models.create_user_request import CreateUserRequest
 from srk.main.api.steps.base_steps import BaseSteps
 from srk.main.api.configs.config import Config
 from srk.main.api.models.credit_request_request import CreditRequestRequest
+from srk.main.api.foundation.requesters.crud_requester import CrudRequester
 
 
 class UserSteps(BaseSteps):
@@ -61,11 +62,7 @@ class UserSteps(BaseSteps):
 
         return response
 
-    def credit_request(
-            self,
-            credit_request_request: CreditRequestRequest,
-            create_user_request: CreateUserRequest
-    ):
+    def credit_request(self,credit_request_request: CreditRequestRequest,create_user_request: CreateUserRequest):
         response = ValidateCrudRequester(
             RequestSpecs.auth_headers(
                 username=create_user_request.username,
@@ -77,11 +74,7 @@ class UserSteps(BaseSteps):
 
         return response
 
-    def credit_repay(
-            self,
-            credit_repay_request: CreditRepayRequest,
-            create_user_request: CreateUserRequest
-    ):
+    def credit_repay(self,credit_repay_request: CreditRepayRequest,create_user_request: CreateUserRequest):
         response = ValidateCrudRequester(
             RequestSpecs.auth_headers(
                 username=create_user_request.username,
@@ -92,3 +85,59 @@ class UserSteps(BaseSteps):
         ).post(credit_repay_request)
 
         return response
+
+    def deposit_invalid_account(
+            self,
+            deposit_account_request: DepositAccountRequest,
+            create_user_request: CreateUserRequest
+    ):
+        CrudRequester(
+            RequestSpecs.auth_headers(
+                username=create_user_request.username,
+                password=create_user_request.password
+            ),
+            Endpoint.DEPOSIT_ACCOUNT,
+            ResponseSpecs.requests_bad()
+        ).post(deposit_account_request)
+
+    def transfer_invalid_account(
+            self,
+            transfer_account_request: TransferAccountRequest,
+            create_user_request: CreateUserRequest
+    ):
+        CrudRequester(
+            RequestSpecs.auth_headers(
+                username=create_user_request.username,
+                password=create_user_request.password
+            ),
+            Endpoint.TRANSFER_ACCOUNT,
+            ResponseSpecs.requests_bad()
+        ).post(transfer_account_request)
+
+    def credit_invalid_request(
+            self,
+            credit_request_request: CreditRequestRequest,
+            create_user_request: CreateUserRequest
+    ):
+        CrudRequester(
+            RequestSpecs.auth_headers(
+                username=create_user_request.username,
+                password=create_user_request.password
+            ),
+            Endpoint.CREDIT_REQUEST,
+            ResponseSpecs.requests_bad()
+        ).post(credit_request_request)
+
+    def credit_repay_invalid(
+            self,
+            credit_repay_request: CreditRepayRequest,
+            create_user_request: CreateUserRequest
+    ):
+        CrudRequester(
+            RequestSpecs.auth_headers(
+                username=create_user_request.username,
+                password=create_user_request.password
+            ),
+            Endpoint.CREDIT_REPAY,
+            ResponseSpecs.requests_unprocessable()
+        ).post(credit_repay_request)

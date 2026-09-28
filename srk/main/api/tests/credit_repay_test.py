@@ -24,8 +24,7 @@ class TestCreditRepay:
 
         credit_request = RandomModelGenerator.generate(
             CreditRequestRequest,
-            accountId=account.id,
-            termMonths=12
+            accountId=account.id
         )
 
         credit = api_manager.user_steps.credit_request(
@@ -68,4 +67,64 @@ class TestCreditRepay:
 
         assert credit_after_repay.balance == 0, (
             "После полного погашения balance кредита должен быть равен 0"
+        )
+
+    def test_credit_repay_partial_amount(
+            self,
+            api_manager: ApiManager,
+            credit_user_request: CreditUserRequest,
+            db_session: Session
+    ):
+        account = api_manager.user_steps.create_account(
+            credit_user_request
+        )
+
+        credit_request = RandomModelGenerator.generate(
+            CreditRequestRequest,
+            accountId=account.id
+        )
+
+        credit = api_manager.user_steps.credit_request(
+            credit_request,
+            credit_user_request
+        )
+
+        credit_before_repay = CreditCrudDb.get_credit_by_id(
+            db_session,
+            credit.creditId
+        )
+
+        assert credit_before_repay is not None, (
+            "Созданный кредит должен существовать в БД"
+        )
+
+        balance_before_repay = credit_before_repay.balance
+
+        partial_amount = credit_request.amount - 1
+
+        repay_request = RandomModelGenerator.generate(
+            CreditRepayRequest,
+            creditId=credit.creditId,
+            accountId=account.id,
+            amount=partial_amount
+        )
+
+        api_manager.user_steps.credit_repay_invalid(
+            repay_request,
+            credit_user_request
+        )
+
+        db_session.expire_all()
+
+        credit_after_repay = CreditCrudDb.get_credit_by_id(
+            db_session,
+            credit.creditId
+        )
+
+        assert credit_after_repay is not None, (
+            "После невалидного погашения кредит должен остаться в БД"
+        )
+
+        assert credit_after_repay.balance == balance_before_repay, (
+            "При частичном погашении баланс кредита не должен изменяться"
         )
